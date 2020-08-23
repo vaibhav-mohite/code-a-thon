@@ -1,0 +1,33 @@
+CASE STUDY
+
+Salisbury University is an accredited European university, which offers a range of courses to students. It strives to give students the very best in terms of education and course content.
+Now, University management is introducing a new 10 testing system forts MBA students, which is an add-on to the traditional examination system. This tests the IQ of the students by testing them on four different subjects like Aptitude, English, Mathematics, and General Knowledge.
+The system allows student to take multiple IQ tests in different languages and displays comments as per marks obtained by the students.
+First, the application asks the student the number of attempts. If a student responds with a value higher than 1, then the application terminates and displays a corresponding message.
+
+However, if the student is attempting the test for first time, it displays the following menu:
+1.	Aptitude
+2.	English
+3.	Math
+4.	GK
+5.	Exit
+
+On entering a value between 1 and 4, the application displays the corresponding question. Note that the student can attempt only once for each subject listed.
+When a student enters the correct answer for the question, the score for that subject gets incremented by 10 points. Once the student appears the test for all the test., he/she can choose to exit the application .After selecting the Exit option, the student can get the total marks printed on the screen.
+The total scores should be calculated by adding up all the individual scores in each subjects.
+
+Next, the application displays the following based on the score:
+•	Bonus points earned
+•	Total score out of
+•	Message on IQ level
+
+The application displays the bonus points based on the following conditions.
+•	No bonus point is given when the total score equals to 10
+•	A bonus of 2 points is given when the total score equals to 20
+•	A bonus of 5 points is given when the total score equals to 30
+•	A bonus of 10 points is given when the total score equals to 40
+
+The message on IP level is displayed on the basis of the following conditions
+•	It the final score equals 10, then display "Your IP level is below average”.
+•	It the final score equals to 22, then display "Your IP level is average”.
+•	It the final score equals to 35, then display “You are Intelligent”.
